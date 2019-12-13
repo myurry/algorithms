@@ -1,5 +1,4 @@
-n = 8
-
+n = 8 # An example
 def fib(n):
     if n < 1:
         return -1

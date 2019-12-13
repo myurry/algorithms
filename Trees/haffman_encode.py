@@ -1,4 +1,4 @@
-### read contraindicated ###
+### Read contraindicated ###
 class Node:
     '''A node'''
     def __init__(self, letter, value):
@@ -46,7 +46,7 @@ def encode(node, key = ''):
 for i in range(len(nodes)):
     encode(nodes[i].letter, key=str(i))
 
-# a pair of tests I used
+# a pair of tests
 # print([wage.letter for wage in wages])
 # print(sorted(lcd.items(), key=lambda x:len(x[1])))
 
